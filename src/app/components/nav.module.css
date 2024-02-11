@@ -1,0 +1,43 @@
+#overallContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  align-items: center;
+
+}
+
+#overallContainer p {
+  cursor: pointer;
+}
+
+#logoContainer {
+  height: 2.5rem;
+  width: 4.5rem;
+}
+
+#logoContainer img {
+  height: 100%;
+  width: 100%;
+}
+
+#menu {
+  display: flex;
+  width: max-content;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#access {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#access div {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: #3e4095;
+  border-radius: 10px;
+  color: #fff;
+}

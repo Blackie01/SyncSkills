@@ -1,0 +1,40 @@
+#largeTextContainer {
+    margin: 5rem auto auto auto;
+    width: max-content;
+}
+
+#largeText {
+    font-size: 4rem;
+    text-align: center;
+    width: max-content;
+}
+
+#subtitle {
+    text-align: center;
+    width: max-content;
+    margin: 1rem auto;
+    line-height: 1.8rem;
+}
+
+#buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+#explore {
+    background-color: #3E4095;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+#apply {
+    border: 1px solid #3E4095;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
