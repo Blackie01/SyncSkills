@@ -6,6 +6,7 @@ import Navigation from "./components/nav";
 import Hero from "./components/hero";
 import TutorsAndCourses from "./components/tutorsAndCourses";
 import Mission from "./components/mission";
+import Benefits from "./components/benefits";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Navigation />
       <Hero/>
       <Mission/>
+      <Benefits/>
     </main>
   );
 }

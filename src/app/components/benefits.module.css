@@ -1,0 +1,96 @@
+#overallContainer {
+    margin-top: 10rem;
+}
+
+#title {
+    font-size: 3rem;
+    text-align: center;
+    opacity: 0.5;
+}
+
+#flipCardContainer {
+    padding: 5rem;
+    display: flex;
+    gap: 2rem;
+}
+
+#flip1 {
+    margin-top: 5rem;
+}
+
+.towerHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .towerHeader h2{
+      font-size: 1.5rem;
+      color: #453f65;
+      /* color: #fff; */
+  }
+  
+  .towerHeader p {
+    color: #373038;
+  }
+  
+  .cardLearnMore {
+    display: flex;
+    justify-content: flex-end;
+    /* width: max-content; */
+  }
+  
+  .cardLearnMore p{
+    width: max-content;
+    background-color: #E4C3AD;
+    background-color: #e1915b;
+  
+    background-color: #000;
+  color: #fff;
+  font-size: smaller;
+    padding: 0.3rem 0.5rem;
+    border-radius: 3px;
+  }
+  
+  .towerBody {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      padding: 2rem;
+  }
+
+
+#learnMore {
+    width: max-content;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    /* color: rgba(255, 255, 255, 0.7); */
+    cursor: pointer;
+}
+
+#arrow, #text {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+#learnMore:hover > #text {
+    transform: translateX(0.5rem);
+}
+
+#learnMore:hover > #arrow {
+    transform: translateX(0.5rem);
+    opacity: 0;
+    transition-delay: 0s;
+}
+
+#learnMore > #arrow {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+#learnMore:not(:hover) > #arrow {
+    transform: translateX(0);
+    opacity: 1;
+}
