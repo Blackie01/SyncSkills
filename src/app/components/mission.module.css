@@ -1,0 +1,39 @@
+#container {
+    width: 60%;
+    height: max-content;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    margin-top: 10rem;
+}
+
+#imageContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 2rem;
+    border-radius: 10px 0 0 10px;
+    background-color: rgba(62, 64, 149, 0.5);
+}
+
+#imageContainer p {
+    font-size: 3rem;
+}
+
+#imageContainer span {
+    opacity: 0.3;
+    font-size: 2rem;
+}
+
+#vision {
+    text-align: right;
+}
+
+#textContainer {
+    width: 50%;
+    padding: 3rem 2rem;
+    border-radius: 0 10px 10px 0;
+    color: rgb(62, 64, 149);
+    background-color: rgba(232, 50, 64, 0.5);
+}
