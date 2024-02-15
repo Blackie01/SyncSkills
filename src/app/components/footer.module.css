@@ -1,0 +1,84 @@
+/* styles.module.css */
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+}
+.bgFooter {
+    background-color: #33383c;
+    background-color: #0A2540;
+
+    
+    padding: 50px 0 30px;
+}
+
+.footerHeading {
+    /* letter-spacing: 2px; */
+    position: relative;
+    padding-bottom: 12px;
+    color: #f4f3f3;
+
+}
+
+.footerHeading:after {
+    content: '';
+    width: 25px;
+    border-bottom: 1px solid #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    border-bottom: 1px solid #923139;
+}
+
+.footerLink a {
+    color: #acacac;
+    color: #bdafaf;
+    line-height: 40px;
+    /* font-size: 14px; */
+    transition: all 0.5s;
+}
+
+.footerLink a:hover {
+   color: #fff;
+}
+
+.contactInfo {
+    color: #bdafaf;
+    margin-top: 1rem;
+    /* font-size: 14px; */
+}
+
+.footerSocialIcon {
+    /* font-size: 15px; */
+    height: 34px;
+    width: 34px;
+    line-height: 34px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+}
+
+.facebook {
+    background-color: #4e71a8;
+    color: #fff;
+}
+
+.twitter {
+    background-color: #55acee;
+    color: #fff;
+}
+
+.google {
+    background-color: #d6492f;
+    color: #fff;
+}
+
+.apple {
+    background-color: #424041;
+    color: #fff;
+}
+
+.footerAlt {
+    color: #acacac;
+}

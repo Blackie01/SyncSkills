@@ -4,7 +4,8 @@
 
 #overallContainer {
     background-color: #F7F9FC;
-    padding-top: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 .faqSection {
     /* background: #fdfdfd; */
@@ -99,7 +100,7 @@ color: #f4f3f3;
     padding-left: 30px;
     padding-right: 30px;
     font-weight: 400;
-    font-size: 15px;
+    /* font-size: 15px; */
     letter-spacing: 1px;
     /* color: #3B566E; */
 
@@ -125,7 +126,7 @@ color: #f4f3f3;
     background-color: #3E4095;
 
     /* color: #fff; */
-    font-size: 12px;
+    /* font-size: 12px; */
     margin-right: 20px;
   }
   
@@ -135,7 +136,7 @@ color: #f4f3f3;
     padding-left: 35px;
     padding-bottom: 16px;
     font-weight: 400;
-    font-size: 16px;
+    /* font-size: 16px; */
     color: #6F8BA4;
     line-height: 28px;
     letter-spacing: 1px;

@@ -78,12 +78,12 @@ const FaqSection = () => {
                     onClick={() => handleCollapseToggle(item.id)}
                   >
                     <div className={styles.mb0}>
-                      <h5
+                      <p
                         className={styles.faqTitle}
                       >
                         {/* <span className={styles.badge}>{item.id}</span> */}
                         {item.question}
-                      </h5>
+                      </p>
                     </div>
                   </div>
                   <div

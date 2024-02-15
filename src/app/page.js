@@ -10,6 +10,7 @@ import Offers from "./components/offers";
 import Courses from "./components/courses";
 import Tools from "./components/tools";
 import FaqSection from "./components/faqs";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Courses/>
       <Tools/>
       <FaqSection/>
+      <Footer/>
     </main>
   );
 }
