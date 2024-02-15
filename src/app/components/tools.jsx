@@ -12,7 +12,7 @@ const Tools = () => {
                 <p className={styles.identifier}>For you?</p>
                 <h2 className={styles.title}>This program is for you, and you know it</h2>
                 <p className={styles.subtitle}>
-                This course is perfect for you if you're itching for a career switch-up. It's all about helping you boost your skills, giving you an edge in the tech world and opening doors for your career to grow. If you're dreaming of a job that's not just rewarding but also future-proof, this program is exactly what you need. And hey, if flexibility is important to you, we've got that covered too. We're here to make sure this course fits right into your life and schedule.                </p>
+                This course is perfect for you if you&apos;re itching for a career switch-up. It&apos;s all about helping you boost your skills, giving you an edge in the tech world and opening doors for your career to grow. If you&apos;re dreaming of a job that&apos;s not just rewarding but also future-proof, this program is exactly what you need. And hey, if flexibility is important to you, we&apos;ve got that covered too. We&apos;re here to make sure this course fits right into your life and schedule.</p>
             </div>
 
             <div id={styles.toolsToLearn}>
