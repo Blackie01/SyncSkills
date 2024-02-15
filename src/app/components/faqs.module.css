@@ -1,0 +1,161 @@
+/* Assuming you're using CSS Modules, you won't need the class prefixes like .faq-section and .faq-title, etc. They'll be automatically scoped to the components they're imported into. */
+
+/* FAQ Section */
+
+#overallContainer {
+    background-color: #F7F9FC;
+    padding-top: 10rem;
+}
+.faqSection {
+    /* background: #fdfdfd; */
+    /* min-height: 100vh; */
+    /* padding: 10vh 0 0; */
+    width: 70%;
+    margin: auto;
+  }
+  
+  /* FAQ Title */
+  .faqTitle h2 {
+    position: relative;
+    margin-bottom: 45px;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1;
+  }
+  
+  .faqTitle h2::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 60px;
+    height: 2px;
+    /* background: #E91E63; */
+    background-color: #3E4095;
+    bottom: -25px;
+    margin-left: -30px;
+  }
+  
+  .faqTitle p {
+    padding: 0 190px;
+    margin-bottom: 10px;
+  }
+  
+  /* FAQ Container */
+  .faq {
+    background: #FFFFFF;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+  }
+
+
+
+
+
+  .collapse {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+
+
+
+
+
+
+  
+  /* FAQ Card */
+  .faq .card {
+    border: none;
+    background: none;
+    border-bottom: 1px dashed #CEE1F8;
+  }
+  
+  /* FAQ Card Header */
+  .faq .card .cardHeader {
+    padding: 0px;
+    border: none;
+    background: none;
+    transition: all 0.3s ease-in-out;
+color: #f4f3f3;
+
+  }
+  
+  .faq .card .cardHeader:hover {
+    /* background: rgba(233, 30, 99, 0.1); */
+    background-color: #3E4095;
+color: #f4f3f3;
+    padding-left: 10px;
+  }
+
+
+  
+  /* FAQ Title */
+  .faq .card .cardHeader .faqTitle {
+    width: 100%;
+    text-align: left;
+    padding: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #3B566E;
+
+    text-decoration: none !important;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+ 
+  
+  /* FAQ Badge */
+  .faq .card .cardHeader .faqTitle .badge {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 14px;
+    /* float: left; */
+    border-radius: 100px;
+    text-align: center;
+    /* background: #E91E63; */
+    background-color: #3E4095;
+
+    color: #fff;
+    font-size: 12px;
+    margin-right: 20px;
+  }
+  
+  /* FAQ Card Body */
+  .faq .card .cardBody {
+    padding: 30px;
+    padding-left: 35px;
+    padding-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6F8BA4;
+    line-height: 28px;
+    letter-spacing: 1px;
+    border-top: 1px solid #F3F8FF;
+  }
+  
+  .faq .card .cardBody p {
+    margin-bottom: 14px;
+  }
+
+  
+  /* Media Query for FAQ */
+  @media (max-width: 991px) {
+    .faq {
+      margin-bottom: 30px;
+    }
+    
+    .faq .card .cardHeader .faqTitle {
+      line-height: 26px;
+      margin-top: 10px;
+    }
+  }
+  

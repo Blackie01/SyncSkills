@@ -9,7 +9,12 @@ const Benefits = () => {
   return (
     <section id={styles.overallContainer}>
       <div>
-        <p id={styles.title}>Time is a limited resource</p>
+        <h2 id={styles.title}>Time is a limited resource</h2>
+        <div id={styles.titleExplanation}>
+            The world changes fast. You can&apos;t afford to 
+            miss out on the train of radical innovations going
+            on in the world. SyncSkill offers a way out!
+        </div>
       </div>
 
       <div id={styles.flipCardContainer}>

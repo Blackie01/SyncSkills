@@ -1,7 +1,7 @@
 #container {
     width: 60%;
     height: max-content;
-    height: 15rem;
+    /* height: 15rem; */
     /* border: 1px solid red; */
     margin: auto;
     display: flex;
@@ -11,6 +11,8 @@
 #imageContainer {
     position: relative;
     width: 50%;
+    height: 15rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,6 +43,8 @@
 #textContainer {
     color: #fff;
     width: 50%;
+    height: 15rem;
+
     padding: 3rem 2rem;
     border-radius: 0 10px 10px 0;
     background-color: #e83240;
@@ -73,7 +77,9 @@
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
-
+#arrow {
+    display: flex;
+}
 
 #learnMore:hover > #text {
     transform: translateX(0.5rem);

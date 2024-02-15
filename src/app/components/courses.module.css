@@ -1,0 +1,137 @@
+#overallContainer {
+    padding:  5rem;
+    background-color: #F7F9FC;
+    background-color: #fafafa;
+    background-color: #f4f3f3;
+
+
+
+}
+#heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+#learnMore {
+    /* background-color: #e83240; */
+    /* padding: 0.3rem 0.8rem; */
+    width: max-content;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    /* color: rgba(255, 255, 255, 0.7); */
+    cursor: pointer;
+}
+
+#arrow, #text {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+#arrow {
+    display: flex;
+}
+
+
+
+#learnMore:hover > #text {
+    transform: translateX(0.5rem);
+}
+
+#learnMore:hover > #arrow {
+    transform: translateX(0.5rem);
+    opacity: 0;
+    transition-delay: 0s;
+}
+
+#learnMore > #arrow {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+#learnMore:not(:hover) > #arrow {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+#overallCardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    row-gap: 3rem;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#heading h3 {
+    font-size: 2.5rem;
+    color: rgb(2, 2, 39);
+
+}
+
+.card {
+    display: flex;
+    /* gap: 1rem; */
+    height: 8rem;
+    /* border: 1px solid red; */
+    width: 31.5%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    background-color: #fdfbfb;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+#image {
+    height: 100%;
+    width: 35%;
+    padding: 0.4rem;
+    /* border: 1px solid blue; */
+    border-radius: 10px 0 0 10px;
+}
+
+#image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.4rem;
+    width: 65%;
+    font-size: 0.9rem;
+    /* border: 1px solid green; */
+    border-radius: 0 10px 10px 0 ;
+}
+
+#name {
+    color: rgb(2, 2, 39);
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+#duration, #byline {
+    color: rgb(26, 26, 73);
+    opacity: 0.6;
+    font-size: 0.8rem;
+}
+
+.learnMoreCursor {
+    color: rgb(2, 2, 39);
+color: #E83240;
+color: #923139;
+
+opacity: 0.8;
+}

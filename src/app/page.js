@@ -4,9 +4,12 @@ import React from "react";
 import styles from "./page.module.css";
 import Navigation from "./components/nav";
 import Hero from "./components/hero";
-import TutorsAndCourses from "./components/tutorsAndCourses";
 import Mission from "./components/mission";
 import Benefits from "./components/benefits";
+import Offers from "./components/offers";
+import Courses from "./components/courses";
+import Tools from "./components/tools";
+import FaqSection from "./components/faqs";
 
 export default function Home() {
   return (
@@ -15,6 +18,10 @@ export default function Home() {
       <Hero/>
       <Mission/>
       <Benefits/>
+      <Offers/>
+      <Courses/>
+      <Tools/>
+      <FaqSection/>
     </main>
   );
 }

@@ -5,7 +5,16 @@
 #title {
     font-size: 3rem;
     text-align: center;
+    /* opacity: 0.5; */
+}
+
+#titleExplanation {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
     opacity: 0.5;
+    line-height: 2rem;
 }
 
 #flipCardContainer {
@@ -74,6 +83,10 @@
 
 #arrow, #text {
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+#arrow {
+    display: flex;
 }
 
 #learnMore:hover > #text {
