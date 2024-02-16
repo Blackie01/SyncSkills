@@ -20,7 +20,8 @@ const Benefits = () => {
       <div id={styles.flipCardContainer}>
         <FlipCard
         margin="3rem"
-          color="#e6e6fa"
+          // color="#e6e6fa"
+          color="#f4f3f3"
           title={
             <div className={styles.towerHeader}>
               <div>
@@ -48,7 +49,9 @@ const Benefits = () => {
           </div>
         </FlipCard>
         <FlipCard
-          color="#fffdd6"
+          // color="#fffdd6"
+          color="#F2F6FC"
+
           title={
             <div className={styles.towerHeader}>
               <div>
@@ -79,7 +82,9 @@ const Benefits = () => {
         <FlipCard
         margin="3rem"
 
-          color="#fffdd6"
+          // color="#fffdd6"
+          color="#FBFAF2"
+
           title={
             <div className={styles.towerHeader}>
               <div>
@@ -109,7 +114,9 @@ const Benefits = () => {
           </div>
         </FlipCard>
         <FlipCard
-          color="#9c96b0"
+          // color="#9c96b0"
+          color="#EFEFEF"
+
           title={
             <div className={styles.towerHeader}>
               <div>

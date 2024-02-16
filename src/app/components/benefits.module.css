@@ -53,14 +53,14 @@
   
   .cardLearnMore p{
     width: max-content;
-    background-color: #E4C3AD;
-    background-color: #e1915b;
   
     background-color: #000;
+    background-color: rgb(2, 2, 39);
   color: #fff;
   font-size: smaller;
+  font-size: 0.8rem;
     padding: 0.3rem 0.5rem;
-    border-radius: 3px;
+    border-radius: 5px;
   }
   
   .towerBody {
