@@ -6,7 +6,7 @@ import TutorsAndCourses from "./tutorsAndCourses";
 
 const Hero = () => {
   return (
-    <section>
+    <section id={styles.overallContainer}>
       <div id={styles.largeTextContainer}>
         <p id={styles.largeText}>
           Kickstart a Tech Career <br /> <span style={{color: '#e83240', color: 'rgb(62, 64, 149)'}}>in 90 days</span>
