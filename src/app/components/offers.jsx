@@ -18,6 +18,11 @@ const Offers = () => {
                 </p>
             </div>
 
+            <div id={styles.side2} className={styles.side}>
+            <div id={styles.collab1}><Image src={Collab1} alt=''/></div>
+            <div id={styles.collab2}><Image src={Collab2} alt=''/></div>
+        </div>
+
             <div className={styles.individualContainer}>
                 <p className={styles.identifier}>Tutelage</p>
                 <h2 className={styles.title}>Expert tutors working with global companies</h2>
@@ -42,7 +47,7 @@ const Offers = () => {
                 </p>
             </div>
         </div>
-        <div className={styles.side}>
+        <div id={styles.side1} className={styles.side}>
             <div id={styles.collab1}><Image src={Collab1} alt=''/></div>
             <div id={styles.collab2}><Image src={Collab2} alt=''/></div>
         </div>

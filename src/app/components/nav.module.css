@@ -3,7 +3,7 @@
   justify-content: space-between;
   padding: 2rem 5rem;
   align-items: center;
-font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 
 #overallContainer p {
@@ -42,29 +42,24 @@ font-size: 0.9rem;
   color: #fff;
 }
 
-.hamburger, .responsiveMenu {
+.hamburger,
+.responsiveMenu {
   display: none;
 }
 
 @media (max-width: 1120px) {
   #overallContainer {
-     padding-left: 3rem;
-        padding-right: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
-
-  /* #overallContainer {
-    position: fixed;
-    top: 0;
-    border: 1px solid red ;
-    width: 100vw;
-  } */
 
   .hamburger {
     display: block;
     z-index: 4;
   }
 
-  #menu, #access {
+  #menu,
+  #access {
     display: none;
   }
 
@@ -72,23 +67,21 @@ font-size: 0.9rem;
     color: #f4f3f3;
     z-index: 3;
     display: flex;
-    /* justify-content: flex-start; */
     align-items: center;
     position: absolute;
+    position: fixed;
     height: 100vh;
     width: 100vw;
     top: 0;
     left: 0;
-    background-color: #0A2540;
+    background-color: #0a2540;
     transform: translateY(-100vh);
     transition: transform 1s ease-in-out;
   }
 
   #respMenuContainer {
-    /* border: 1px solid red; */
     width: max-content;
     height: max-content;
-    /* margin: auto; */
     margin-left: 20%;
     display: flex;
     flex-direction: column;
@@ -97,7 +90,7 @@ font-size: 0.9rem;
 
   #respLogin {
     background-color: #f4f3f3;
-    color: #0A2540;
+    color: #0a2540;
     padding: 0.5rem 1rem;
     display: flex;
     justify-content: center;
@@ -110,8 +103,15 @@ font-size: 0.9rem;
     display: flex;
     justify-content: center;
     border-radius: 20px;
-    background-color: #0A2540;
-    box-shadow: -2px 2px 2px #3E4095;
+    background-color: #0a2540;
+    box-shadow: -2px 2px 2px #3e4095;
     font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 524px) {
+  #overallContainer {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }

@@ -107,3 +107,45 @@
     transform: translateX(0);
     opacity: 1;
 }
+
+@media (max-width: 1403px) {
+    #flipCardContainer {
+        padding: 3rem;
+    }
+}
+
+@media (max-width: 1150px) {
+    #flipCardContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 808px) {
+    #titleExplanation {
+        width: 75%;
+    }
+}
+
+@media (max-width: 698px) {
+
+    #title {
+        width: 90%;
+        margin: auto;
+        font-size: 2rem;
+    }
+
+    #titleExplanation {
+        width: 85%;
+    }
+
+    #flipCardContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 368px) {
+    #flipCardContainer {
+        padding: 1.5rem;
+    }
+}

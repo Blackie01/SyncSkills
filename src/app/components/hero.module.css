@@ -6,12 +6,14 @@
 #largeTextContainer {
     margin: 5rem auto auto auto;
     width: max-content;
+    width: 100%;
 }
 
 #largeText {
     font-size: 4rem;
     text-align: center;
     width: max-content;
+    margin: auto;
 }
 
 #subtitle {
@@ -69,5 +71,50 @@
 @media (max-width: 612px) {
     #largeText {
         font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 502px) {
+    #largeText {
+        font-size: 2.3rem;
+        margin: auto;
+    }
+
+    #subtitleBreak {
+        display: none;
+    }
+
+    #subtitle {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 441px) {
+    #largeText {
+        font-size: 2rem;
+    }
+
+    #subtitle {
+        line-height: 1.4rem;
+    }
+}
+
+@media (max-width: 391px) {
+    #largeText {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 329px) {
+    #largeText {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 285px) {
+    #largeText {
+        font-size: 1.3rem;
     }
 }

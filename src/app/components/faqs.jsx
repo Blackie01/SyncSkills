@@ -81,7 +81,6 @@ const FaqSection = () => {
                       <p
                         className={styles.faqTitle}
                       >
-                        {/* <span className={styles.badge}>{item.id}</span> */}
                         {item.question}
                       </p>
                     </div>

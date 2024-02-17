@@ -82,3 +82,24 @@
 .footerAlt {
     color: #acacac;
 }
+
+
+ @media (max-width: 768px) {
+    .row {
+        padding: 3rem;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+ }
+
+ @media (max-width: 407px) {
+    .row {
+        padding: 2rem;
+    }
+ }
+
+ @media (max-width: 277px) {
+    .row {
+        padding: 1rem;
+    }
+ }

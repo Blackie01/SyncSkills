@@ -49,7 +49,6 @@
 
 .subtitle {
     line-height: 1.8rem;
-    color: #e5d1d1;
     color: #bdafaf;
 
 }
@@ -89,4 +88,88 @@
   
   .logo {
     animation: bounce 2.5s ease-in-out infinite;
+  }
+
+  @media (max-width: 1275px) {
+    .individualContainer {
+        padding: 3rem 2rem;
+    }
+
+    #toolsToLearn {
+        padding: 0 2rem 2rem 2rem;
+    }
+  }
+
+  @media (max-width: 1083px) {
+    .title {
+        font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 913px) {
+    .individualContainer {
+        width: 70%;
+    }
+  }
+
+  @media (max-width: 675px) {
+    .individualContainer {
+        width: 90%;
+    }
+
+    .logoName {
+        font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 554px) {
+    .individualContainer {
+        width: 100%;
+    }
+
+    #logoContainer {
+        gap: 1rem;
+    }
+  }
+
+  @media (max-width: 412px) {
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        line-height: 1.5rem;
+    }
+  }
+
+  @media (max-width: 337px) {
+    .individualContainer {
+        padding: 3rem 1rem;
+    }
+
+    #toolsToLearn {
+        padding: 0 1rem 1rem 1rem;
+    }
+  }
+
+  @media (max-width: 285px) {
+    .subtitle {
+        line-height: 1.3rem;
+    }
+  }
+
+  @media (max-width: 277px) {
+    .identifier {
+        text-align: right;
+    }
+  }
+
+  @media (max-width: 270px) {
+    .title {
+        font-size: 1rem;
+    }
+
+    #toolsToLearn h4 {
+        font-size: 1rem;
+    }
   }

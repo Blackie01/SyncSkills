@@ -142,3 +142,23 @@
         justify-content: center;
     }
 }
+
+@media (max-width: 378px) {
+    #overallContainer {
+        scale: 0.9;
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 323px) {
+    #courses, #tutors {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 391px) {
+    #impact {
+        bottom: -10rem;
+    }
+}
