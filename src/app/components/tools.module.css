@@ -68,6 +68,7 @@
     display: flex;
     gap: 2rem;
     color: #bdafaf;
+    flex-wrap: wrap;
 
 }
 

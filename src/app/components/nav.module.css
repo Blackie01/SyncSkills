@@ -47,7 +47,17 @@ font-size: 0.9rem;
 }
 
 @media (max-width: 1120px) {
+  #overallContainer {
+     padding-left: 3rem;
+        padding-right: 3rem;
+  }
 
+  /* #overallContainer {
+    position: fixed;
+    top: 0;
+    border: 1px solid red ;
+    width: 100vw;
+  } */
 
   .hamburger {
     display: block;

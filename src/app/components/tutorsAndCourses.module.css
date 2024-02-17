@@ -4,6 +4,7 @@
     padding: 0 5rem;
     height: max-content;
     margin-top: -10rem;
+    /* border: 1px solid red; */
     /* align-items: flex-end; */
     /* border: 1px solid red; */
 }
@@ -73,14 +74,71 @@
     gap: 2rem;
     height: max-content;
     margin-top: 20rem;
+    padding: 0 1rem;
+
 }
 
 #impact  p {
     opacity: 0.3;
     font-size: 0.9rem;
+    text-align: center;
+
 }
 
 #impactLogos {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 2rem;
+}
+
+@media (max-width: 1198px) {
+    #overallContainer {
+        margin-top: 0rem;
+       
+    }
+
+    #impact {
+        margin-top: 10rem;
+        /* border: 1px solid blue; */
+    }
+}
+
+@media (max-width: 1049px) {
+
+    #overallContainer {
+        margin-top: 3rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    #impact {
+        padding: 0 1rem;
+    }
+
+}
+
+@media (max-width: 936px) {
+
+    #overallContainer {
+        position: relative;
+        justify-content: center;
+        gap: 2rem;
+        /* margin-top: 10rem; */
+    }
+
+    #impact {
+        position: absolute;
+        bottom: -7rem;
+    }
+}
+
+@media (max-width: 760px) {
+    #overallContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sub {
+        justify-content: center;
+    }
 }
