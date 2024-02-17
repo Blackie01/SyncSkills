@@ -44,7 +44,14 @@ const Navigation = () => {
 
       <div className={styles.hamburger} onClick={handleResponsiveMenuOpen}>
         {openResponsiveMenu ? (
-          <IconX style={{ color: "#f4f3f3", position: 'fixed', top: '2rem', right: '2.5rem' }} />
+          <IconX
+            style={{
+              color: "#f4f3f3",
+              position: "fixed",
+              top: "2rem",
+              right: "2.5rem",
+            }}
+          />
         ) : (
           <IconMenu2 />
         )}

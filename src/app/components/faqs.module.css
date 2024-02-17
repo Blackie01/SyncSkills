@@ -1,128 +1,125 @@
 #overallContainer {
-    background-color: #F7F9FC;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+  background-color: #f7f9fc;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 .faqSection {
-    width: 70%;
-    margin: auto;
-  }
-  
-  .faqTitle h2 {
-    position: relative;
-    margin-bottom: 45px;
-    display: inline-block;
-    font-weight: 600;
-    line-height: 1;
-  }
-  
-  .faqTitle h2::before {
-    content: "";
-    position: absolute;
-    left: 50%;
-    width: 60px;
-    height: 2px;
-    background-color: #3E4095;
-    bottom: -25px;
-    margin-left: -30px;
-  }
-  
-  .faqTitle p {
-    padding: 0 190px;
-    margin-bottom: 10px;
-  }
-  
+  width: 70%;
+  margin: auto;
+}
+
+.faqTitle h2 {
+  position: relative;
+  margin-bottom: 45px;
+  display: inline-block;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.faqTitle h2::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 60px;
+  height: 2px;
+  background-color: #3e4095;
+  bottom: -25px;
+  margin-left: -30px;
+}
+
+.faqTitle p {
+  padding: 0 190px;
+  margin-bottom: 10px;
+}
+
+.faq {
+  background: #ffffff;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+}
+
+.collapse {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.faq .card {
+  border: none;
+  background: none;
+  border-bottom: 1px dashed #cee1f8;
+}
+
+.faq .card .cardHeader {
+  padding: 0px;
+  border: none;
+  background: none;
+  transition: all 0.3s ease-in-out;
+  color: #3e4095;
+}
+
+.faq .card .cardHeader:hover {
+  background-color: #3e4095;
+  color: #f4f3f3;
+  padding-left: 10px;
+}
+
+.faq .card .cardHeader .faqTitle {
+  width: 100%;
+  text-align: left;
+  padding: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-decoration: none !important;
+  transition: all 0.1s ease 0s;
+  cursor: pointer;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.faq .card .cardHeader .faqTitle .badge {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 14px;
+  border-radius: 100px;
+  text-align: center;
+  background-color: #3e4095;
+  margin-right: 20px;
+}
+
+.faq .card .cardBody {
+  padding: 30px;
+  padding-left: 35px;
+  padding-bottom: 16px;
+  font-weight: 400;
+  color: #6f8ba4;
+  line-height: 28px;
+  letter-spacing: 1px;
+  border-top: 1px solid #f3f8ff;
+}
+
+.faq .card .cardBody p {
+  margin-bottom: 14px;
+}
+
+@media (max-width: 991px) {
   .faq {
-    background: #FFFFFF;
-    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
-    border-radius: 4px;
-  }
-
-  .collapse {
-    display: none;
-  }
-  
-  .show {
-    display: block;
-  }
-
-  .faq .card {
-    border: none;
-    background: none;
-    border-bottom: 1px dashed #CEE1F8;
-  }
-  
-  .faq .card .cardHeader {
-    padding: 0px;
-    border: none;
-    background: none;
-    transition: all 0.3s ease-in-out;
-color: #3E4095;
-
-  }
-  
-  .faq .card .cardHeader:hover {
-    background-color: #3E4095;
-color: #f4f3f3;
-    padding-left: 10px;
+    margin-bottom: 30px;
   }
 
   .faq .card .cardHeader .faqTitle {
-    width: 100%;
-    text-align: left;
-    padding: 0px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    text-decoration: none !important;
-    transition: all 0.1s ease 0s;
-    cursor: pointer;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    line-height: 26px;
+    margin-top: 10px;
   }
+}
 
-  .faq .card .cardHeader .faqTitle .badge {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    line-height: 14px;
-    border-radius: 100px;
-    text-align: center;
-    background-color: #3E4095;
-    margin-right: 20px;
+@media (max-width: 700px) {
+  .faqSection {
+    width: 90%;
   }
-  
-  .faq .card .cardBody {
-    padding: 30px;
-    padding-left: 35px;
-    padding-bottom: 16px;
-    font-weight: 400;
-    color: #6F8BA4;
-    line-height: 28px;
-    letter-spacing: 1px;
-    border-top: 1px solid #F3F8FF;
-  }
-  
-  .faq .card .cardBody p {
-    margin-bottom: 14px;
-  }
-
-  
-  @media (max-width: 991px) {
-    .faq {
-      margin-bottom: 30px;
-    }
-    
-    .faq .card .cardHeader .faqTitle {
-      line-height: 26px;
-      margin-top: 10px;
-    }
-  }
-  
-
-  @media (max-width: 700px) {
-    .faqSection {
-      width: 90%;
-    }
-  }
+}

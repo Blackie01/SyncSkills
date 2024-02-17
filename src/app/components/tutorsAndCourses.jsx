@@ -9,16 +9,22 @@ import DesignImg from "../../../public/design.webp";
 import Tutor1 from "../../../public/tutor1.webp";
 import Tutor2 from "../../../public/tutor2.jpeg";
 import Tutor3 from "../../../public/tutor3.webp";
-import { IconBrandMeta, IconBrandAws, IconBrandRevolut, IconBrandCashapp, IconBrandCoinbase, IconBrandVisa, IconBrandVimeo, IconBrandAdobe, IconBrandAirbnb, IconBrandAmazon } from "@tabler/icons-react";
+import {
+  IconBrandMeta,
+  IconBrandAws,
+  IconBrandRevolut,
+  IconBrandCashapp,
+  IconBrandCoinbase,
+  IconBrandAdobe,
+  IconBrandAirbnb,
+} from "@tabler/icons-react";
 
 const TutorsAndCourses = () => {
   return (
     <section id={styles.overallContainer}>
       <div id={styles.courses}>
         <div className={styles.sub}>
-          <p>
-            Learn on-demand Tech skills
-          </p>
+          <p>Learn on-demand Tech skills</p>
           <div id={styles.image1} className={styles.imageContainer}>
             <Image src={CodeImg} />
           </div>
@@ -36,16 +42,13 @@ const TutorsAndCourses = () => {
       <div id={styles.impact}>
         <p>our students have ended up at</p>
         <div id={styles.impactLogos}>
-        <IconBrandAws/>
-        <IconBrandCashapp/>
-        <IconBrandCoinbase/>
-        <IconBrandMeta/>
-        <IconBrandRevolut/>
-        <IconBrandAdobe/>
-        <IconBrandAirbnb/>
-        {/* <IconBrandVimeo/>
-        <IconBrandVisa/>
-        <IconBrandAmazon/> */}
+          <IconBrandAws />
+          <IconBrandCashapp />
+          <IconBrandCoinbase />
+          <IconBrandMeta />
+          <IconBrandRevolut />
+          <IconBrandAdobe />
+          <IconBrandAirbnb />
         </div>
       </div>
 
@@ -59,9 +62,7 @@ const TutorsAndCourses = () => {
           </div>
         </div>
         <div className={styles.sub}>
-          <p>
-            Learn from world class expert tutors
-          </p>
+          <p>Learn from world class expert tutors</p>
           <div id={styles.tutor1} className={styles.imageContainer}>
             <Image src={Tutor1} />
           </div>

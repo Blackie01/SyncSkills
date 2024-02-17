@@ -9,10 +9,14 @@ const Hero = () => {
     <section id={styles.overallContainer}>
       <div id={styles.largeTextContainer}>
         <p id={styles.largeText}>
-          Kickstart a Tech Career <br /> <span style={{color: '#e83240', color: 'rgb(62, 64, 149)'}}>in 90 days</span>
+          Kickstart a Tech Career <br />{" "}
+          <span style={{ color: "#e83240", color: "rgb(62, 64, 149)" }}>
+            in 90 days
+          </span>
         </p>
         <p id={styles.subtitle}>
-          All you need is your motivation. SyncSkills provides you with <br id={styles.subtitleBreak} />
+          All you need is your motivation. SyncSkills provides you with{" "}
+          <br id={styles.subtitleBreak} />
           every other thing you need to start right in Tech.
         </p>
         <div id={styles.buttons}>

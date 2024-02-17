@@ -28,7 +28,11 @@ const FlipCard = ({ title, children, color, margin }) => {
   }, []);
 
   return (
-    <div style={{marginTop: margin}} className={styles.flipCard} ref={cardRef}>
+    <div
+      style={{ marginTop: margin }}
+      className={styles.flipCard}
+      ref={cardRef}
+    >
       <div
         style={{
           backgroundColor: color,

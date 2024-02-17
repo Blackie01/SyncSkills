@@ -16,14 +16,14 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Navigation />
-      <Hero/>
-      <Mission/>
-      <Benefits/>
-      <Offers/>
-      <Courses/>
-      <Tools/>
-      <FaqSection/>
-      <Footer/>
+      <Hero />
+      <Mission />
+      <Benefits />
+      <Offers />
+      <Courses />
+      <Tools />
+      <FaqSection />
+      <Footer />
     </main>
   );
 }

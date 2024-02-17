@@ -1,120 +1,113 @@
-#overallContainer {
-    /* background-color: #F7F9FC; */
-
-}
-
 #largeTextContainer {
-    margin: 5rem auto auto auto;
-    width: max-content;
-    width: 100%;
+  margin: 5rem auto auto auto;
+  width: max-content;
+  width: 100%;
 }
 
 #largeText {
-    font-size: 4rem;
-    text-align: center;
-    width: max-content;
-    margin: auto;
+  font-size: 4rem;
+  text-align: center;
+  width: max-content;
+  margin: auto;
 }
 
 #subtitle {
-    text-align: center;
-    width: max-content;
-    margin: 1rem auto;
-    line-height: 1.8rem;
-    opacity: 0.6;
-    /* border: 1px solid red; */
+  text-align: center;
+  width: max-content;
+  margin: 1rem auto;
+  line-height: 1.8rem;
+  opacity: 0.6;
 }
 
 #buttons {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
 }
 
 #explore {
-    background-color: #3E4095;
-    padding: 0.5rem 1rem;
-    border-radius: 10px;
-    color: #fff;
-    font-size: 0.9rem;
-    cursor: pointer;
+  background-color: #3e4095;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 0.9rem;
+  cursor: pointer;
 }
 
 #apply {
-    border: 1px solid #3E4095;
-    padding: 0.5rem 1rem;
-    border-radius: 10px;
-    font-size: 0.9rem;
-    cursor: pointer;
+  border: 1px solid #3e4095;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
 }
 
 @media (max-width: 1309px) and (min-width: 1199px) {
-    #largeTextContainer {
-    }
+  #largeTextContainer {
+  }
 
-    #subtitle {
-        /* width: 50%; */
-        max-width: 20rem;
-    }
+  #subtitle {
+    max-width: 20rem;
+  }
 
-    #subtitleBreak {
-        display: none;
-    }
+  #subtitleBreak {
+    display: none;
+  }
 }
 
 @media (max-width: 805px) {
-    #largeText {
-        font-size: 3rem;
-    }
+  #largeText {
+    font-size: 3rem;
+  }
 }
 
 @media (max-width: 612px) {
-    #largeText {
-        font-size: 2.5rem;
-    }
+  #largeText {
+    font-size: 2.5rem;
+  }
 }
 
 @media (max-width: 502px) {
-    #largeText {
-        font-size: 2.3rem;
-        margin: auto;
-    }
+  #largeText {
+    font-size: 2.3rem;
+    margin: auto;
+  }
 
-    #subtitleBreak {
-        display: none;
-    }
+  #subtitleBreak {
+    display: none;
+  }
 
-    #subtitle {
-        width: 90%;
-        display: flex;
-        flex-wrap: wrap;
-    }
+  #subtitle {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 441px) {
-    #largeText {
-        font-size: 2rem;
-    }
+  #largeText {
+    font-size: 2rem;
+  }
 
-    #subtitle {
-        line-height: 1.4rem;
-    }
+  #subtitle {
+    line-height: 1.4rem;
+  }
 }
 
 @media (max-width: 391px) {
-    #largeText {
-        font-size: 1.7rem;
-    }
+  #largeText {
+    font-size: 1.7rem;
+  }
 }
 
 @media (max-width: 329px) {
-    #largeText {
-        font-size: 1.5rem;
-    }
+  #largeText {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 285px) {
-    #largeText {
-        font-size: 1.3rem;
-    }
+  #largeText {
+    font-size: 1.3rem;
+  }
 }

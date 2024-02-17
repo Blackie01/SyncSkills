@@ -11,16 +11,15 @@ const Benefits = () => {
       <div>
         <h2 id={styles.title}>Time is a limited resource</h2>
         <div id={styles.titleExplanation}>
-            The world changes fast. You can&apos;t afford to 
-            miss out on the train of radical innovations going
-            on in the world. SyncSkill offers a way out!
+          The world changes fast. You can&apos;t afford to miss out on the train
+          of radical innovations going on in the world. SyncSkill offers a way
+          out!
         </div>
       </div>
 
       <div id={styles.flipCardContainer}>
         <FlipCard
-        margin="3rem"
-          // color="#e6e6fa"
+          margin="3rem"
           color="#f4f3f3"
           title={
             <div className={styles.towerHeader}>
@@ -49,9 +48,7 @@ const Benefits = () => {
           </div>
         </FlipCard>
         <FlipCard
-          // color="#fffdd6"
           color="#F2F6FC"
-
           title={
             <div className={styles.towerHeader}>
               <div>
@@ -80,11 +77,8 @@ const Benefits = () => {
           </div>
         </FlipCard>
         <FlipCard
-        margin="3rem"
-
-          // color="#fffdd6"
+          margin="3rem"
           color="#FBFAF2"
-
           title={
             <div className={styles.towerHeader}>
               <div>
@@ -114,9 +108,7 @@ const Benefits = () => {
           </div>
         </FlipCard>
         <FlipCard
-          // color="#9c96b0"
           color="#EFEFEF"
-
           title={
             <div className={styles.towerHeader}>
               <div>
