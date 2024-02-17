@@ -103,6 +103,11 @@
   .individualContainer {
     width: 70%;
   }
+
+  #absoluteBackground {
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+
+  }
 }
 
 @media (max-width: 675px) {
@@ -123,6 +128,10 @@
   #logoContainer {
     gap: 1rem;
   }
+
+  /* .identifier {
+    text-align: right;
+  } */
 }
 
 @media (max-width: 412px) {
@@ -152,9 +161,9 @@
 }
 
 @media (max-width: 277px) {
-  .identifier {
+  /* .identifier {
     text-align: right;
-  }
+  } */
 }
 
 @media (max-width: 270px) {

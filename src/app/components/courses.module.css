@@ -166,28 +166,20 @@
   }
 }
 
-@media (max-width: 398px) {
-  .card {
-    height: 9rem;
+@media (max-width: 500px) {
+   .card {
+    flex-direction: column;
+    height: max-content;
   }
 
-  #image {
-    width: 50%;
+   #image,
+  #details {
+    width: 100%;
   }
 }
 
 @media (max-width: 348px) {
   #overallContainer {
     padding: 3rem 1rem;
-  }
-
-  .card {
-    flex-direction: column;
-    height: max-content;
-  }
-
-  #image,
-  #details {
-    width: 100%;
   }
 }

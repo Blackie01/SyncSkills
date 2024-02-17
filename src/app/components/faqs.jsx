@@ -7,7 +7,7 @@ const faqData = [
     id: 1,
     question: "Do I need to have a background in IT?",
     answer:
-      "No, you do not , all you require is your passion and willingness to learn",
+      "No, you do not, all you require is your passion and willingness to learn",
   },
   {
     id: 2,
