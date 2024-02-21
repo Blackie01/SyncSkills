@@ -16,7 +16,7 @@ const Offers = () => {
               A fully integrated suite of educational resources and tutors
             </h2>
             <p className={styles.subtitle}>
-              Embark on your journey to a tech career with our all-inclusive
+              Start your journey to a tech career with our all-inclusive
               online school, offering a complete array of educational resources
               and expert guidance. From cutting-edge curriculum modules to
               dedicated mentors, we provide a seamless transition pathway
